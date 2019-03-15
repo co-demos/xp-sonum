@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+  {% include head.html %}
+
+  <body>
+    <a href="https://github.com/SocieteNumerique/societenumerique.github.io">
+      <img class="img-ribbon" src="{{ site.url }}/images/beta-ribbon.svg" alt="Ce site est en version beta">
+    </a>
+
+    {% include navbar.html %}
+
+    <div class="page-content" id="top">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include contribute.html %}
+    {% include footer.html %}
+    {% include fleche_grey.html %}
+  </body>
+
+</html>

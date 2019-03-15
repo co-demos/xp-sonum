@@ -1,0 +1,251 @@
+/* common */
+
+body {
+  font-family: 'Lato', sans-serif !important;
+}
+h1 {    
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    padding: 0.8rem 0;
+}
+h1.ss-titre {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    color: #513085;
+}
+h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-transform: uppercase;
+    color: #513085;
+}
+p,
+ul {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+    color: #513085;    
+}
+h3.wht,
+p.wht,
+a.wht {
+    color: white;
+}
+a.prpl {
+    color: #513085; 
+}
+p.big {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
+.small {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+a.link,
+a.link:hover {
+    color: inherit !important;
+}
+a.link:hover {
+    opacity: 0.5;
+}
+a.underlink {
+    text-decoration: underline;
+}
+a.external::after {
+    content: "\0000a0\279A";
+}
+.flex {
+    display: flex;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.big.flex a {
+    margin-left: 0.8rem;
+}
+.fleche {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    height: 54px;
+    display: none;
+    z-index: 1;
+}
+.fleche.up {
+    display: block;
+}
+.fleche img{
+    height: 84px;
+}
+.max1500 {
+    max-width: 1500px;
+    margin: auto;
+}
+.max1200 {
+    max-width: 1200px;
+    margin: auto;
+}
+.max800 {
+    max-width: 800px;
+    margin: auto;
+}
+.card {
+    height: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+.card p {
+    padding: 0 1rem;
+}
+.icone-card {
+    height: 96px;
+    margin: 0 auto;
+}
+.card .flex {
+    justify-content: center;
+}
+.card h2 span {
+    margin: auto 10px;
+}
+.small-icon {
+    height: 24px;
+}
+ul.red-dot {
+	list-style-type: none;
+}
+ul.red-dot li:before {
+	content: "\2022";
+	margin-right: 10px;
+	color: #d24745;
+}
+.row .row {
+    margin: 0;
+}
+/* Footer */
+.page-footer {
+    background-color: white;
+    padding-bottom: 20px;    
+}
+.page-footer,
+.page-footer a {
+    color: #303030 !important;
+}
+.page-footer a,
+.page-footer li {
+    font-size: 1rem;
+    font-weight: 400;
+}
+.page-footer a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+/* top */
+#top {
+    background: #513085;
+    background: -moz-linear-gradient(rignt, #513085 0%, #e89db1 100%);
+    background: -webkit-linear-gradient(right, #513085 0%, #e89db1 100%);
+    background: linear-gradient(to left, #513085 0%, #e89db1 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e89db1', endColorstr='#513085',GradientType=1 );
+}
+.bck-home {
+    background: url("../images/kit-home-illustr.svg") no-repeat fixed center;
+    background-size: 60%;
+}
+.logo-head img{
+    height: 94px;
+    max-width: 100%;
+}
+.kit-presentation {
+    border: solid white 1px;
+}
+.small-img img {
+    height: 1rem;
+}
+
+/* common section */
+#jaccueille,
+#jediagnostique,
+#jaccompagne,
+#joriente {
+    border-top: solid white 10px;
+}
+#jaccueille,
+#jaccompagne,
+#plusloin,
+#jediagnostique,
+#joriente{
+    position: relative;
+    padding-top: 40px;
+}
+#jaccueille_ancre,
+#jaccompagne-ancre,
+#plusloin_ancre,
+#jediagnostique_ancre,
+#joriente_ancre{
+    position: absolute;
+    top: -50px;
+}
+#jaccueille:after,
+#jaccompagne:after,
+#plusloin:after,
+#jediagnostique:after,
+#joriente:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+#jaccueille:after,
+#jaccompagne:after,
+#plusloin:after {
+    background-color: #f4d9d9;
+}
+#jediagnostique:after,
+#joriente:after {
+    background-color: #513085;
+}
+.section-title {
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    justify-content: center;
+    position: absolute;
+    top: -80px
+}
+img.litte-img {
+    height: 30px;
+}
+img.back-img {
+    position: absolute;
+    height: 480px;
+    right: 0;
+    top: 100px;
+}
+img.back-img-left {
+   position: absolute;
+    height: 480px;
+    left: -390px;
+    bottom: 90px;
+}
+/* j'accueille */
+.citation {
+    border: solid #513085 1px;    
+}
+
+/* Plus loin */
+#plusloin {
+    padding-bottom: 50px;
+}
